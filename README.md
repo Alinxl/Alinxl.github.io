@@ -1,5 +1,13 @@
 # [Start Bootstrap - Freelancer](https://startbootstrap.com/template-overviews/freelancer/)
 
+目前目录下有一个模板文件和jekyll的初始化文件，但是互相的配置还没有太摸清，如何通过md更改页面内容(jekyll)也不是很清楚，在下次使用前可以先试着改一下摸索摸索。
+
+```shell
+ jekyll serve
+```
+
+
+
 [Freelancer](http://startbootstrap.com/template-overviews/freelancer/) is a one page freelancer portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features several content sections, a responsive portfolio grid, window modals for each portfolio item, and a working PHP contact form.
 
 ## Preview

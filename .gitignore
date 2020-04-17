@@ -1,5 +1,11 @@
 node_modules
-node_modules
+
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
 # General
 .DS_Store
 .AppleDouble
@@ -26,3 +32,4 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
