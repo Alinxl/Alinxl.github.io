@@ -3,7 +3,7 @@
  * @Author: Alin Zhang
  * @Date: 2020-02-15 17:26:37
  * @LastEditor: Alin Zhang
- * @LastEditTime: 2020-04-17 22:53:18
+ * @LastEditTime: 2020-04-18 13:51:04
  * @Description: file content
  */
 // Check for empty fields
@@ -21,7 +21,7 @@ $message = strip_tags(htmlspecialchars($_POST['message']));
 $to = "alinzhang1001@outlook.com"; // Add your email address inbetween the "" replacing yourname@yourdomain.com - This is where the form will send a message to.
 $subject = "Website Contact Form:  $name";
 $body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email\n\nPhone: $phone\n\nMessage:\n$message";
-$header = "From: noreply@Alinxl.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
+$header = "From: alinzhang1001@outlook.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $header .= "Reply-To: $email";	
 
 if(!mail($to, $subject, $body, $header))
